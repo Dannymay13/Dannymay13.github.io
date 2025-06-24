@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D7Concepts Realty LLC - Professional Real Estate Investment</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta name="description" content="D7Concepts Realty LLC - Professional real estate investment services in Delaware. Specializing in residential properties, property flipping, and management solutions.">
+    <meta name="keywords" content="real estate investment, Delaware real estate, property flipping, residential properties, property management">
+</head>
+<body>
+    <!-- Header section containing branding, navigation, and contact information -->
+    <header>
+        <div class="header-container">
+            <div class="logo-section">
+                <img src="images/d7concepts-logo.png" alt="D7Concepts Realty LLC Logo" class="logo">
+                <h1>D7Concepts Realty LLC</h1>
+            </div>
+            
+            <!-- Main navigation bar with links to all website pages -->
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="offering.html">Our Offering</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main content area showcasing company introduction, mission, and founder information -->
+    <main>
+        <!-- Hero section introducing the company with compelling headline and call-to-action -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Invest in Sustainability and Property</h2>
+                <p class="hero-subtitle">Professional Real Estate Investment Services in Delaware</p>
+                <p class="hero-description">We provide comprehensive real estate investment services, specializing in residential properties, property flipping, and professional management solutions.</p>
+                <div class="hero-buttons">
+                    <a href="about.html" class="btn btn-primary">Learn About Us</a>
+                    <a href="offering.html" class="btn btn-secondary">Explore Our Offering</a>
+                    <a href="contact.html" class="btn btn-accent">Contact Us</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Company mission and introduction section -->
+        <section class="company-intro">
+            <div class="container">
+                <h3>Welcome to D7Concepts Realty LLC</h3>
+                <p>At D7Concepts Realty LLC, we are a Delaware-based real estate investment company dedicated to enhancing digital visibility, streamlining stakeholder communication, and facilitating lead generation and service engagement. Our mission is to provide exceptional real estate investment opportunities while building sustainable property portfolios for our clients.</p>
+            </div>
+        </section>
+
+        <!-- Real Estate Market Data Section - NEW AJAX Integration -->
+        <section class="market-insights" id="market-data-section">
+            <div class="container">
+                <div class="insights-grid">
+                    <div class="insights-content">
+                        <h3>Live Market Insights & Data</h3>
+                        <p>Stay ahead of the market with our real-time analysis and insights. Our system continuously monitors market trends, economic indicators, and emerging opportunities from multiple data sources to ensure our clients make informed investment decisions.</p>
+                        
+                        <div id="market-loading" class="loading" style="display: none; text-align: center; padding: 1em; color: #4a90b8;">
+                            <i class="fas fa-spinner fa-spin"></i> Loading real estate market data...
+                        </div>
+                        
+                        <div id="market-stats" style="margin-top: 1.5em;">
+                            <!-- Real estate market data will be populated here via AJAX -->
+                        </div>
+                        
+                        <a href="offering.html" class="btn btn-secondary" style="margin-top: 2rem;">Learn More About Our Services</a>
+                    </div>
+                    <div class="insights-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Market Analysis and Business Strategy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Property Showcase -->
+        <section class="featured-property">
+            <div class="container">
+                <h3>Featured Investment Property</h3>
+                <div class="property-showcase">
+                    <div class="property-image">
+                        <img src="images/property.png" alt="Featured Investment Property - Modern Kitchen and Living Space" class="property-img">
+                    </div>
+                    <div class="property-details">
+                        <h4>Premium Residential Investment</h4>
+                        <p>This beautifully renovated property showcases our commitment to quality and attention to detail. Featuring modern amenities, open-concept living, and premium finishes, this property represents the caliber of investments we pursue.</p>
+                        <div class="property-features">
+                            <div class="feature">
+                                <i class="fas fa-home"></i>
+                                <span>Modern Design</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-chart-line"></i>
+                                <span>High ROI Potential</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Prime Location</span>
+                            </div>
+                        </div>
+                        <a href="offering.html" class="btn btn-primary">View Our Portfolio</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Founders section highlighting Daniel and Lensa's expertise and background -->
+        <section class="founders">
+            <div class="container">
+                <h3>Meet the Founder & Co-founder Daniel & Lensa: The Visionaries Behind D7Concepts Realty LLC</h3>
+                <p class="founders-intro">In the bustling world of real estate, where opportunities are boundless and competition is fierce, Daniel and Lensa have carved out a unique niche with their innovative firm, D7Concepts Realty LLC. This dynamic duo is redefining real estate investing, blending visionary strategies with a hands-on approach to create a powerhouse in the industry.</p>
+                
+                <div class="founders-grid">
+                    <div class="founder-card">
+                        <img src="images/Daniel.png" alt="Daniel - Founder of D7Concepts Realty" class="founder-image">
+                        <div class="founder-info">
+                            <h4>Daniel - Founder</h4>
+                            <p>Daniel, with his keen analytical mind and a deep understanding of market trends, has always had a passion for real estate. His expertise lies in identifying undervalued properties and transforming them into lucrative assets, a skill that has been instrumental in the success of D7Concepts.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="founder-card">
+                        <img src="images/lensa.png" alt="Lensa - Co-founder of D7Concepts Realty" class="founder-image">
+                        <div class="founder-info">
+                            <h4>Lensa - Co-founder</h4>
+                            <p>Lensa brings a unique blend of creativity and business acumen. She has an eye for detail and a knack for visualizing the potential in every property. Lensa's innovative approach to property renovation and development has turned many rundown spaces into stunning, marketable assets. Her ability to see beyond the surface and transform spaces has made her an invaluable asset to the firm.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services highlight section showcasing main investment areas -->
+        <section class="services-highlight">
+            <div class="container">
+                <h3>Our Core Services</h3>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Residential Investment Properties">
+                        </div>
+                        <i class="fas fa-home"></i>
+                        <h4>Investments</h4>
+                        <p>Strategic residential property investments focused on single and multi-family properties with high growth potential.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Market Research and Analysis">
+                        </div>
+                        <i class="fas fa-chart-line"></i>
+                        <h4>Research</h4>
+                        <p>Comprehensive market analysis and property evaluation to identify the best investment opportunities.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1521790361543-f645cf042ec4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Professional Advisory Services">
+                        </div>
+                        <i class="fas fa-users"></i>
+                        <h4>Advisors</h4>
+                        <p>Expert consultation and advisory services to guide your real estate investment decisions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter signup section for lead generation -->
+        <section class="newsletter">
+            <div class="container">
+                <h3>Stay Updated with Market Insights</h3>
+                <p>Subscribe to our newsletter for the latest real estate investment opportunities and market trends.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer containing contact information, social media links, and validation links -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>D7Concepts Realty LLC</h4>
+                    <p>Professional Real Estate Investment Services</p>
+                    <p>Delaware, United States</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Information</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> Phone: Available upon request</li>
+                        <li><i class="fas fa-envelope"></i> Email: info@d7conceptsrealty.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Address: Delaware, USA</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="offering.html">Our Offering</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/19UHkTe9ib/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/d7concepts_realty?igsh=Mnludjk2MWJ4cjRr&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="footer-divider">
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 D7Concepts Realty LLC. All rights reserved.</p>
+                <div class="validation-links">
+                    <a href="https://validator.w3.org/check?uri=referer" referrerpolicy="unsafe-url">Validate HTML</a>
+                    <a href="https://jigsaw.w3.org/css-validator/check/referer" referrerpolicy="unsafe-url">Validate CSS</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript file for AJAX functionality -->
+    <script src="script.js"></script>
+</body>
+</html>

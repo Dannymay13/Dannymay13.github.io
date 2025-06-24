@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - D7Concepts Realty LLC</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta name="description" content="Contact D7Concepts Realty LLC for real estate investment opportunities. Get in touch with our professional team in Delaware for consultation and partnership opportunities.">
+    <meta name="keywords" content="contact D7Concepts Realty, real estate investment contact, Delaware real estate consultation, property investment inquiry">
+</head>
+<body>
+    <!-- Header maintaining consistent branding and navigation structure -->
+    <header>
+        <div class="header-container">
+            <div class="logo-section">
+                <img src="images/d7concepts-logo.png" alt="D7Concepts Realty LLC Logo" class="logo">
+                <h1>D7Concepts Realty LLC</h1>
+            </div>
+            
+            <!-- Navigation bar with consistent positioning and functionality -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="offering.html">Our Offering</a></li>
+                    <li><a href="contact.html" class="active">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main content area with contact form and company information -->
+    <main>
+        <!-- Page hero section -->
+        <section class="page-hero">
+            <div class="container">
+                <h2>Let's Connect</h2>
+                <p class="page-subtitle">Ready to discuss your real estate investment goals? Get in touch with our professional team.</p>
+            </div>
+        </section>
+
+        <!-- Contact form and information section -->
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact form with comprehensive input validation -->
+                    <div class="contact-form-container">
+                        <h3>Send Us a Message</h3>
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                                <span class="error-message" id="firstNameError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                                <span class="error-message" id="lastNameError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message" id="emailError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                                <span class="error-message" id="phoneError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="investmentType">Investment Interest</label>
+                                <select id="investmentType" name="investmentType">
+                                    <option value="">Select your investment interest</option>
+                                    <option value="residential">Residential Properties</option>
+                                    <option value="flipping">Real Estate Flipping</option>
+                                    <option value="management">Property Management</option>
+                                    <option value="consultation">Investment Consultation</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="budget">Investment Budget Range</label>
+                                <select id="budget" name="budget">
+                                    <option value="">Select budget range</option>
+                                    <option value="under-100k">Under $100,000</option>
+                                    <option value="100k-250k">$100,000 - $250,000</option>
+                                    <option value="250k-500k">$250,000 - $500,000</option>
+                                    <option value="500k-1m">$500,000 - $1,000,000</option>
+                                    <option value="over-1m">Over $1,000,000</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Please describe your real estate investment goals or questions..."></textarea>
+                                <span class="error-message" id="messageError"></span>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                    
+                    <!-- Static contact information -->
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>Available upon request</p>
+                                <p>Business hours: Monday - Friday, 9:00 AM - 6:00 PM EST</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@d7conceptsrealty.com</p>
+                                <p>We typically respond within 24 hours</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Delaware, United States</p>
+                                <p>Serving the Delaware and surrounding markets</p>
+                            </div>
+                        </div>
+                        
+                        <div class="find-us-section">
+                            <h4>Find Us Online</h4>
+                            <p>Connect with us on social media for the latest market insights and investment opportunities.</p>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/share/19UHkTe9ib/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook"><i class="fab fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/d7concepts_realty?igsh=Mnludjk2MWJ4cjRr&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact options section -->
+        <section class="contact-options">
+            <div class="container">
+                <h3>How Can We Help You?</h3>
+                <div class="options-grid">
+                    <div class="option-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h4>Investment Consultation</h4>
+                        <p>Schedule a consultation to discuss your real estate investment goals and explore opportunities that align with your financial objectives.</p>
+                        <a href="#" class="btn btn-secondary">Schedule Consultation</a>
+                    </div>
+                    
+                    <div class="option-card">
+                        <i class="fas fa-file-alt"></i>
+                        <h4>Property Analysis</h4>
+                        <p>Get detailed analysis and market insights for specific properties you're considering for investment purposes.</p>
+                        <a href="#" class="btn btn-secondary">Request Analysis</a>
+                    </div>
+                    
+                    <div class="option-card">
+                        <i class="fas fa-handshake"></i>
+                        <h4>Partnership Opportunities</h4>
+                        <p>Explore partnership opportunities and joint venture possibilities in our current and upcoming investment projects.</p>
+                        <a href="#" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer with consistent contact information and validation -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>D7Concepts Realty LLC</h4>
+                    <p>Professional Real Estate Investment Services</p>
+                    <p>Delaware, United States</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Information</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> Phone: Available upon request</li>
+                        <li><i class="fas fa-envelope"></i> Email: info@d7conceptsrealty.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Address: Delaware, USA</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="offering.html">Our Offering</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/19UHkTe9ib/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/d7concepts_realty?igsh=Mnludjk2MWJ4cjRr&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="footer-divider">
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 D7Concepts Realty LLC. All rights reserved.</p>
+                <div class="validation-links">
+                    <a href="https://validator.w3.org/check?uri=referer" referrerpolicy="unsafe-url">Validate HTML</a>
+                    <a href="https://jigsaw.w3.org/css-validator/check/referer" referrerpolicy="unsafe-url">Validate CSS</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript file for form validation and interactivity -->
+    <script src="script.js"></script>
+</body>
+</html>
